@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Html sheet</title>
+    <style type="text/css">
+        #main-header{
+            text-align:center;
+            background:rgb(212, 35, 35);
+            color:white;
+            padding: 10px;
+
+          }
+        #main-footer{
+            text-align:center;
+            font-size: 20px;
+        }  
+    </style>
+</head>
+<body>
+    <header id ="main-header">
+        <h1>My Webpage</h1>
+    </header>
+      <!--Heading-->
+      <h1>Heading one</h1>
+      <h6>Heading six</h6>
+
+      <!--Paragraph-->
+      <p>
+          write any thing in pharagraph<br>
+          we also <strong>break</strong>  the <em> paragraph</em></p>
+      <!--
+          inline element 
+           -Do not start on a new line
+           -Take only the necessary width
+          Block element 
+           -Start with new line
+           -Take full width avvailable
+
+           Block Level:<div> , <h1>..<h6>,<p>,form>
+           inline level: <span>, <img>, <a> 
+      -->
+      <a href="https://www.youtube.com/watch?v=UB1O30fR-EE&t=1s"> youtube</a> <!--open in same page-->
+      <a href="https://www.youtube.com/watch?v=UB1O30fR-EE&t=1s" target="_blank"> youtube</a><!--open in next page -->
+       <!--List-->
+         <ul>
+             <li>list item1</li>
+             <li>list item2</li>
+             <li>list item3</li>
+             <li>list item4</li>
+         </ul>
+
+         <ol type="A">
+                <li>list item1</li>
+                <li>list item2</li>
+                <li>list item3</li>
+                <li>list item4</li>
+        </ol>
+        <!--Table-->
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dhuvaraganath</td>
+                    <td>dhuvaraganathsm@gmail.com</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                        <td>balaje</td>
+                        <td>balaji@gmail.com</td>
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>balaje ts</td>
+                        <td>balajits@gmail.com</td>
+                        <td>22</td>
+                        </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+        <!--Forms-->
+        <form action="process.php" method="GET">
+            <div>  
+              <label>First Name</label>
+              <input type="text" name="first-name"
+              placeholder="Enter first name">
+            </div>
+            <br>
+            <div> 
+              <label>Last Name</label>
+              <input type="text" name="last-name">
+            </div>
+            <br>
+            <div> 
+                    <label>Email</label>
+                    <input type="email" name="email">
+                  </div>
+                  <br>
+                  <div> 
+                          <label>message</label>
+                          <textarea name="message"></textarea>
+                        </div> 
+                        <br>
+                        <div> 
+                                <label>Gender</label>
+                                <select name="gender">
+                                    <option value="male">Male</option>
+                                    <option value="male">Female</option>
+                                    <option value="male">Other</option>
+                                </select>
+                    <br>
+                    <br>
+                    <div>
+                        <lable>Age</lable>
+                        <input type="number" name="age"
+                         value="23">
+                    </div>
+                    <br>
+                    <div>
+                        <label>Brithday:</label>
+                        <input type="date" name="Brithday">
+                    </div>
+                    <br>
+                    <input type="submit" name="submit"
+                    value="submit">
+
+                </form>
+                <br>
+                <button>Clicke me</button>
+                <br>
+                <img src="https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500"
+                 width="200">
+                 <!--<img src="image/image.jpg" alt="image name"//in forlder-->
+                
+                <!--Quotations --> 
+                <blockquote cite="http://google.com">
+                    Google LLC is an American multinational technology company that specializes in Internet-related services and products, which include online advertising ...
+                </blockquote>
+
+                <p>
+                    The <abbr title="World Wide Web">WWW</abbr>
+                is awsome
+                </p>
+                <p><cite> html</cite> crase course</p>
+         <div style="margin-top:500px"></div>
+
+         <footer id="main-footer">
+             <p>
+                 Copyright &copy; 2019, my page
+             </p>
+         </footer>
+</body>
+</html>
